@@ -1,0 +1,16 @@
+torch==2.0.1+cu117
+transformers==4.29
+requests
+tqdm>=4.47.0
+regex
+scipy
+scikit-learn
+tensorboardx
+pandas
+tokenizers
+matplotlib
+wandb
+sentencepiece
+onnxruntime
+seqeval
+cvxpy
