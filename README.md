@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Train MTL models that combines sentence-, word-level QE and emotion classification
 
-Open [src/config.py]() to change hyperparameters for different datasets, i.e., [HADQAET]() (Qian et al., 2023) or [MQM subset](), task combinations (sent_word, sent_emo, or sent_word_emo), loss heuristics (Nash, Aligned, impartial MTL and etc.), pretrained language models and training hyperparameters such as the number of training epochs. The following code snippet is an example of changing these hyperparameters.  
+Open [src/config.py](https://github.com/shenbinqian/MTL4QE/blob/main/src/config.py) to change hyperparameters for different datasets, i.e., [HADQAET](https://github.com/shenbinqian/MTL4QE/tree/main/data/HADQAET) (Qian et al., 2023) or [MQM subset](https://github.com/shenbinqian/MTL4QE/tree/main/data/MQM_subset), task combinations (sent_word, sent_emo, or sent_word_emo), loss heuristics (Nash, Aligned, impartial MTL and etc.), pretrained language models and training hyperparameters such as the number of training epochs. The following code snippet is an example of changing these hyperparameters. 
 
 ```
 MODEL_NAME = "facebook/xlm-v-base" # model name for multilingual pre-trained language models
@@ -41,17 +41,17 @@ CUDA_VISIBLE_DEVICES=0 python -m src.run
 
 ## Fine-tune sentence-level QE models
 
-To individually fine-tune sentnece-level QE models using TransQuest (Ranasinghe et al., 2020) and COMET (Rei et al., 2020), please download our sentence-level [HADQAET]() and [MQM subset](). Fine-tuning details can be found at the offical GitHub repositories of [TransQuest](https://github.com/TharinduDR/TransQuest) and [COMET](https://github.com/Unbabel/COMET).
+To individually fine-tune sentnece-level QE models using TransQuest (Ranasinghe et al., 2020) and COMET (Rei et al., 2020), please [download](https://github.com/shenbinqian/MTL4QE/tree/main/data/ft_sent-level) our sentence-level HADQAET and MQM subset. Fine-tuning details can be found at the offical GitHub repositories of [TransQuest](https://github.com/TharinduDR/TransQuest) and [COMET](https://github.com/Unbabel/COMET).
 
 
 ## Fine-tune word-level QE models
 
-To individually fine-tune word-level QE models using MicroTransQuest (Ranasinghe et al., 2021), please download our word-level [HADQAET]() and [MQM subset](). Fuine-tuning details can be found at the offical GitHub repository of [MicroTransQuest](https://github.com/TharinduDR/TransQuest).
+To individually fine-tune word-level QE models using MicroTransQuest (Ranasinghe et al., 2021), please download our word-level [HADQAET](https://github.com/shenbinqian/MTL4QE/tree/main/data/HADQAET) and [MQM subset](https://github.com/shenbinqian/MTL4QE/tree/main/data/MQM_subset). Fuine-tuning details can be found at the offical GitHub repository of [MicroTransQuest](https://github.com/TharinduDR/TransQuest).
 
 
 ## Fine-tune emotion classification models
 
-Please see our [instructions]() for fine-tuning emotion classification models.
+Please see our [instructions](https://github.com/shenbinqian/MTL4QE/tree/main/emo_classification) for fine-tuning emotion classification models.
 
 ## References
 
