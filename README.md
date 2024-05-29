@@ -33,7 +33,7 @@ arg_config = {
 }
 ```
 
-Run the following code in command line after specifying new hyperparameters. Or train with default hyparameters (sentence- and word-level QE on HADQAET) without changing hyperparameters.
+Run the following code in command line after specifying new hyperparameters. Or train with default hyparameters without changing hyperparameters for sentence- and word-level QE on HADQAET.
 
 ```
 CUDA_VISIBLE_DEVICES=0 python -m src.run
