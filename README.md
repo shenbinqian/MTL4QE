@@ -5,7 +5,7 @@ This repository contains the code and data to train multi-task learning (MTL) mo
 ## Installation
 
 ```
-git clone https://github.com/username/MTL4QE.git
+git clone https://github.com/XXXXX/MTL4QE.git
 cd MTL4QE
 conda create -n mtl4qe python=3.10
 conda activate mtl4qe
