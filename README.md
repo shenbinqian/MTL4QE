@@ -18,11 +18,11 @@ Open [src/config.py](https://github.com/shenbinqian/MTL4QE/blob/main/src/config.
 
 ```
 MODEL_NAME = "facebook/xlm-v-base" # model name for multilingual pre-trained language models
-COMBINATION = "sent_word_emo" # combination of sentence-level QE and emotion classification
+COMBINATION = "sent_word_emo" # combination of sentence-, word-level QE and emotion classification
 
 arg_config = {
     'model_name': MODEL_NAME,
-    'loss_type': "aligned", # loss heuristics: 'nash', 'aligned' or None for linear combination 
+    'loss_type': "nash", # loss heuristics: 'nash', 'aligned' or None for linear combination 
     'pool_type': 'MaxPool', # pooling strategy
 
     'max_seq_length': 200,
