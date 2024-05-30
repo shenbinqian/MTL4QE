@@ -35,8 +35,8 @@ TEMP_DIRECTORY = "temp/data/"
 GOOGLE_DRIVE = False
 DRIVE_FILE_ID = None
 MODEL_TYPE = "xlmroberta"
-MODEL_NAME = "facebook/xlm-v-base"  # facebook/xlm-v-base
-COMBINATION = "sent_word_emo" # specify the combinations of tasks as 'sent_word', 'sent_emo' or 'sent_word_emo'
+MODEL_NAME = "xlm-roberta-large"  # facebook/xlm-v-base
+COMBINATION = "sent_word" # specify the combinations of tasks as 'sent_word', 'sent_emo' or 'sent_word_emo'
 
 arg_config = {
     'output_dir': 'temp/outputs1/',
@@ -45,7 +45,7 @@ arg_config = {
 
     'model_type': MODEL_TYPE,
     'model_name': MODEL_NAME,
-    'loss_type': "aligned", # loss heuristics: 'nash', 'aligned', 'imtlg', 'dwa', 'rlw' or None for linear combination 
+    'loss_type': "nash", # loss heuristics: 'nash', 'aligned', 'imtlg', 'dwa', 'rlw' or None for linear combination 
     'pool_type': 'MaxPool', # pooling strategy
 
     'fp16': False,
