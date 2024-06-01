@@ -1,4 +1,4 @@
-# Evaluating Machine Translation of Emotion-loaded User-generated Content: A Multi-task Learning Framework
+# A Multi-task Learning Framework for Evaluating Machine Translation of Emotion-loaded User-generated Content
 This repository contains the code and data to train multi-task learning (MTL) models to evaluate machine translation of emotion-loaded user-generated content (UGC). The paper is still under review, so the repository is anonymized. We will publish all relevant information along with the paper.
 
 
