@@ -1,11 +1,11 @@
 # A Multi-task Learning Framework for Evaluating Machine Translation of Emotion-loaded User-generated Content
-This repository contains the code and data to train multi-task learning (MTL) models to evaluate machine translation of emotion-loaded user-generated content (UGC). The paper is still under review, so the repository is anonymized. We will publish all relevant information along with the paper.
+This repository contains the code and data to train multi-task learning (MTL) models to evaluate machine translation of emotion-loaded user-generated content (UGC). Our paper has been accepted by the Ninth Conference on Machine Translation (WMT24). We will release the camera-ready paper soon!
 
 
 ## Installation
 
 ```
-git clone https://github.com/XXXXX/MTL4QE.git
+git clone https://github.com/shenbinqian/MTL4QE.git
 cd MTL4QE
 conda create -n mtl4qe python=3.10
 conda activate mtl4qe
